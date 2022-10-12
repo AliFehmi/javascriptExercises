@@ -1,0 +1,148 @@
+#gameName{
+    color: darkgoldenrod;
+    text-align: center;
+    
+    
+}
+#box1{
+    display:flex;
+    background-color: burlywood;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+    border-color: black;
+    /*left: 700px;*/
+    font-size: 75px;
+    text-align: center;
+    
+}
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+   /*left: 700px;
+    transform: translateY(-5px);
+    bottom:5px;*/
+    font-size: 75px;
+    text-align: center;
+}
+#box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 700px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 855px;
+    bottom:550px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 855px;
+    bottom: 475px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 855px;
+    bottom: 480px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 1010px;
+    bottom: 950px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 1010px;
+    bottom: 955px;
+    transform: translateY(-10px);*/
+    font-size: 75px;
+    text-align: center;
+}
+#box9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: burlywood;
+    border: 5px solid;
+    border-color: black;
+    /*left: 1010px;
+    bottom: 960px;
+    transform: translateY(-10px);*/
+    font-size:75px;
+    text-align: center;
+}
+.boxContainer{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px 100px;
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color:red;
+    box-sizing: border-box;
+
+}
+.winningText{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chartreuse;
+    font-size: 40px;
+}
+.wrongInput{
+    font-size: 25px;
+    color:red;
+}
