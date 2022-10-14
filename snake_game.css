@@ -1,0 +1,33 @@
+.snake{
+    position:fixed;
+    top: 370px;
+    left: 750px;
+    
+    width: 10px;
+    height:10px;
+    background-color: purple;
+}
+
+.snake_body{
+    position: fixed;
+    width:10px;
+    height:10px;
+    background-color: black;
+    top:370px;
+    left: 740px;
+}
+
+#startingButton{
+    position: fixed;
+    top:40%;
+    left:50%;
+}
+.colors{
+    display: grid;
+    grid-template-columns: repeat(155, 10px);
+    grid-template-rows: repeat(75,10px);
+    border-color: black;
+    border: solid;
+    border-width: 2px;
+    background-color: yellowgreen;
+}
