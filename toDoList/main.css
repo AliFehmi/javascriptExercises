@@ -1,0 +1,83 @@
+.plans{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left:20px;
+}
+
+button, input{
+    appearance: none;
+    border: none;
+    outline:none;
+    background: none;
+}
+
+#taskInput{
+    background-color: #1e1f21;
+    width: 50%;
+    padding:20px;
+    border-radius: 1.2rem;
+    color:#fff;
+    font-size: 20px;
+}
+.taskInput{
+    background-color: #1e1f21;
+    padding-left: 10px;
+    border-radius: 1.2rem;
+    color:#fff;
+    font-size: 20px;
+}
+.taskInput:read-only
+#wrongInput{
+    width: 70%;
+    padding:20px;
+    color:#fff;
+}
+
+#addPlan{
+    font-size: 25px;
+    font-weight: 600;
+    background:linear-gradient(to right, #bd314f,#b5339f );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+
+.plan {
+    display: grid;
+    height: 3.5vh;
+    grid-template-columns: 4fr 1fr;
+    background-color: #1e1f21;
+    padding:20px;
+    font-size: 20px;
+    width: 60%;
+    margin-top:20px;
+    border-radius: 1.2rem;
+    color:#fff;
+}
+
+body {
+    background-color: #52565e;
+}
+
+.action{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.edit{
+    font-size: 25px;
+    font-weight: 400;
+    background:linear-gradient(to right, #bd314f,#b5339f );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.delete{
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+}
