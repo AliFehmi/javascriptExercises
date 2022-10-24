@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Invoker Tutorial</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/invoker_tutorial.js" crossorigin="anonymous"></script>    
+    </head>
+
+    <body>
+        <div class="introImage"></div>
+        <div class="slideBar">
+            <button id="descriptionBar">
+                <h2>description</h2>
+            </button>
+            <button id="skillsetBar">
+                <h2>skillset</h2>
+            </button>
+        </div>
+
+        <div class="heroDescription-grid" id="heroDesc">
+            <div id="textDescription">
+                <div id="textDescriptionTitle">
+                    Hero Description
+                </div>
+                <div id="textDescriptionContent">
+                    Invoker is an intelligence hero that has unique skillset for 
+                    all possible obstacle. 
+                    As the name suggests he <strong> invokes elements</strong> 
+                    which are <span id="Quas">Quas</span>,<span id="Wex">Wex</span> and
+                    <span id="Exort" >Exort</span>. In order to invoke a spell to activate to be used invoker needs to have 3 orbs of which combination
+                    creates a specific spell to the combination of the orbs.
+                    However, the order of the orbs does not matter, take this invocation for example 
+                    <span id="Quas" >Quas</span>, 
+                    <span id="Quas" >Quas</span>,
+                    <span id="Exort" >Exort</span>
+                    which would be the same as
+                    <span id="Exort" >Exort</span>
+                    <span id="Quas" >Quas</span>, 
+                    <span id="Quas" >Quas</span> which is also equivalent to 
+                    <span id="Quas" >Quas</span>,
+                    <span id="Exort" >Exort</span>,
+                    <span id="Quas" >Quas</span>.
+                    Although this mechanic reduces the amount of spell that can be invoked, invoker has still 10 spells to work with.
+                </div>
+            </div>
+            <div id="statDescription">
+                <div id="image">
+                    <img src="/images/Invoker_icon.png">
+                </div>
+                <div id="orbsC1">
+                    <span id="Quas" >Quas</span>
+                    <img src="/images/quas.jpg">
+                </div>
+                <div id="statDescriptionBottom">
+                    <div id="statTable">
+                        <table>
+                            <tr>
+                                <th> Level </th>
+                                <td> 0 </td>
+                                <td> 1</td>
+                                <td> 15</td>
+                                <td> 25</td>
+                                <td> 30</td>
+
+                            </tr>
+                            <tr>
+                                <th> Health </th>
+                                <td> 250</td>
+                                <td>560</td>
+                                <td>1220</td>
+                                <td>1940</td>
+                                <td>2220</td>
+                            </tr>
+                            <tr>
+                                <th> Mana </th>
+                                <td> 75 </td>
+                                <td> 275 </td>
+                                <td> 575 </td>
+                                <td> 1575 </td>
+                                <td> 2375 </td>
+                            </tr>
+                            <tr>
+                                <th> Armor </th>
+                                <td> 0 </td>
+                                <td> 2.33 </td>
+                                <td> 6.77 </td>
+                                <td> 11.93 </td>
+                                <td> 13.85 </td>
+
+                            </tr>
+                            <tr style="width:100%">
+                                <th>Magic Resistance</th>
+                                <td></td>
+                                <td></td>
+                                <td> 25%</td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <th> Status Resistance </th>
+                                <td></td>
+                                <td></td>
+                                <td> 0 </td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                                <th> Damage </th>
+                                <td> 29-35 </td>
+                                <td> 44-50 </td>
+                                <td> 108-114 </td>
+                                <td> 166-172 </td>
+                                <td> 191-197 </td>
+
+                            <tr>
+                                <th> Attack Range</th>
+                                <td> 600 </td>
+                                <td> 600 </td>
+                                <td> 600 </td>
+                                <td> 600 </td>
+                                <td>600 </td>
+
+                            </tr>
+                            <tr>
+                                <th> Attack Speed</th>
+                                <td> 100 </td>
+                                <td> 100 </td>
+                                <td> 100 </td>
+                                <td> 100 </td>
+                                <td> 100 </td>
+
+                            </tr>
+                            <tr>
+                                <th> Movement Speed</th>
+                                <td></td>
+                                <td></td>
+                                <td> 285 </td>
+                                <td></td>
+                                <td></td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+                <div id="orbs">
+                    <div id="orbsC2">
+                        <span id="Exort" >Exort</span>
+                        <img src="/images/exort.jfif">
+                    </div>
+                    <div id="orbsC3">
+                        <span id="Wex">Wex</span>
+                        <img src="/images/wex.jfif">
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="container-spells-grid" id="spells">
+            <div class="grid-item grid-item1">
+                <p >    
+                    Ice wall (<span id="Quas" id="orb">Quas</span>+
+                    <span id="Quas" id="orb">Quas</span>+
+                    <span id="Exort" id="orb">Exort</span>)<br>  <br>
+                    The main benefit of the spell is slowing down enemies in a very strict line that invoker puts in front of him,
+                though the icewall damages the enemy units, the damage is usually is not the point here, it is the triggering affect that makes ice wall 
+                such crucial spell
+            </p>
+                <img src="/images/Ice_Wall_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Chaos Meteor (<span id="Exort" id="orb">Exort</span>+<span id="Exort" id="orb">Exort</span>+
+                    <span id="Wex" id="orb">Wex</span>) <br> <br>
+                    This invocation is mainly for damaging the enemy, invoker uses his celestial abilities and 
+                    creates a meteor which land after 1.3 second delay 
+                    After landing meteor crashes through everyting in a linear line, dealing two type of damage
+                     <b style="color:darkorange">burn</b> and <b style="color:red"> impact.</b>
+                    If any enemy is in touch with the chaos meteor will be dealt both <b style="color:darkorange">burn</b> 
+                    and <b style="color:red"> impact</b> damage. 
+                        Moreover, the meteor will burn its way through so the path will also deal 
+                        <b style="color:darkorange">burn</b> damage for a short period of time.
+                </p>
+                <img src="/images/Chaos_Meteor_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Tornado (<span id="Wex" id="orb">Wex</span>+<span id="Wex" id="orb">Wex</span>+<span id="Quas" id="orb">Quas</span>)
+                    <br> <br>
+                    Unleashes a fast moving tornado that picks up enemy units in its path, suspending them helplessly in the air shortly before allowing them to plummet to their doom. 
+                    Travels further based on the level of Wex. Holds enemies in the air for a duration based on the level of Quas. 
+                    Deals base damage plus added damage based on levels in Wex.
+                    
+                </p>
+                <img src="/images/Tornado_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>Emp (<span id="Wex" id="orb">Wex</span>+<span id="Wex" id="orb">Wex</span>+<span id="Wex" id="orb">Wex</span>) <br> <br>
+                Invoker builds up a charge of electromagnetic energy at a targeted location which automatically detonates after 2.9 seconds. 
+                The detonation covers an area, draining mana based on the level of Wex. Deals damage for each point of mana drained. 
+                If EMP drains mana from an enemy hero, Invoker gains 50% of the mana drained.
+                </p>
+                <img src="/images/EMP_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Alacrity (<span id="Wex" id="orb">Wex</span>+<span id="Wex" id="orb">Wex</span>+<span id="Exort" id="orb">Exort</span>) <br> <br>
+                    Invoker infuses an ally with an immense surge of energy, increasing their attack speed based on the level of Wex and their damage based on the level of Exort.
+                </p>
+                <img src="/images/Alacrity_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Cold Snap (<span id="Quas" id="orb">Quas</span>+<span id="Quas" id="orb">Quas</span>+<span id="Quas" id="orb">Quas</span>)<br> <br>
+                    Invoker draws the heat from an enemy, chilling them to their very core for a duration based on the level of Quas. 
+                    The enemy will take damage and be briefly frozen. Further damage taken in this state will freeze the enemy again, dealing bonus damage. 
+                    The enemy can only be frozen so often, but the freeze cooldown decreases based on the level of Quas.
+                </p>
+                <img src="/images/Cold_Snap_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Ghost Walk (<span id="Quas" id="orb">Quas</span>+<span id="Quas" id="orb">Quas</span>+<span id="Wex" id="orb">Wex</span>) <br> <br>
+                    Invoker manipulates the ice and electrical energies around him, rendering his body invisible. 
+                    The elemental imbalance created as a consequence slows nearby enemies based on the level of Quas, and slows Invoker as well based on the level of Wex.
+                </p>
+                <img src="/images/Ghost_Walk_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Sun Strike (<span id="Exort" id="orb">Exort+</span><span id="Exort" id="orb">Exort+</span><span id="Exort" id="orb">Exort</span>)<br><br>
+                        Sends a catastrophic ray of fierce energy from the sun at any targeted location, incinerating all enemies standing beneath it once it reaches the earth. 
+                        Deals damage based on the level of Exort, however this damage is spread evenly over all enemies hit.    
+                </p>
+                <img src="/images/Sun_Strike_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Forge Spirits (<span id="Exort" id="orb">Exort+</span><span id="Exort" id="orb">Exort+</span><span id="Quas" id="orb">Quas</span>)
+                    Invoker forges a spirit embodying the strength of fire and fortitude of ice. 
+                    Damage and armor are based on the level of Exort while attack range, health, and duration are based on the level of Quas. 
+                    The elemental's scorching attack is capable of melting the armor of enemy heroes. Spawns two spirits when Quas and Exort are at least level 4.
+                </p>
+                <img src="/images/Forge_Spirit_icon.png">
+            </div>
+            <div class="grid-item grid-item1">
+                <p>
+                    Deafening Blast (<span id="Exort" id="orb">Exort+</span><span id="Wex" id="orb">Wex+</span><span id="Quas" id="orb">Quas</span>) <br> <br>
+                    Invoker unleashes a mighty sonic wave in front of him, dealing damage to any enemy unit it collides with based on the level of Exort. 
+                    The sheer impact from the blast is enough to knock those enemy units back for a duration based on the level of Quas, then disarm their attacks for a duration based on the level of Wex.
+                </p>
+                <img src="/images/Deafening_Blast_icon.png">
+            </div>
+        </div>
+    <script src="invoker_tutorial.js" ></script>
+    </body>
+</html>
+        
+          
